@@ -1,4 +1,5 @@
 <?
+
 function getToken($len = 40){
   $token = '';
   for ($i = 0; $i < $len; $i++) {
