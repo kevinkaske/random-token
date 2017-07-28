@@ -12,3 +12,13 @@ file with the following contents:
 	}
 }
 ```
+
+## Usage
+Call the following function to get a random token string. The default length is 40 characters;
+```php
+getToken();
+```
+You can pass in another int for length if you need something longer or shorter than 40.
+```php
+getToken(22);
+```
